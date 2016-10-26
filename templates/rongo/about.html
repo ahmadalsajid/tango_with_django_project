@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rongo</title>
+</head>
+<body>
+    <div>
+        this tutorial has been put together by
+        <strong>{{ name }}</strong>
+    </div>
+    <div>
+        <a href="/">Home</a><br />
+        <img src="{% static 'cat.jpg'%}" alt="Image of cat"/>
+    </div>
+
+</body>
+</html>
